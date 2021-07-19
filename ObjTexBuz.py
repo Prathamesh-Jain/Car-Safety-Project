@@ -81,9 +81,9 @@ def email_alert(to,name):
     msg['subject'] = 'Mobile Usage Alert'
     msg['to'] = to
 
-    user = 'pajainbsl@gmail.com'
+    user = #<your email>
     msg['from'] = user
-    password = 'ooofzfreenpmnqsm'
+    password = #<password>
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
